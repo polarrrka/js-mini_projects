@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>portfolio</title>
+</head>
+
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/11.jpg" alt="user">
+    </div>
+    <ul>
+      <li><a href="#">home</a></li>
+      <li><a href="#">portfolio</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars"></i>
+    </button>
+    <h1>hello</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, ea!</p>
+    <button class="cta-btn" id="open">sign up</button>
+  </header>
+  <div class="container">
+    <h2>Co to je?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quidem nisi incidunt doloribus eveniet?
+      Reiciendis ex, similique incidunt dolorem modi nihil sint tempore voluptatum labore assumenda reprehenderit ipsum
+      accusamus deserunt.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, repudiandae odit amet ad totam eos
+      exercitationem ea quasi officia placeat!</p>
+    <h2>Nevím</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus consectetur voluptatibus, nulla ad rerum
+      explicabo deserunt aperiam eligendi culpa molestiae impedit tempora tempore at aliquam sapiente minus! Nam,
+      repellendus molestiae?</p>
+    <h2>Pořád nic</h2>
+    <ul>
+      <li>lifetime access</li>
+      <li>30 day money back</li>
+      <li>Jsme best</li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam delectus dicta sapiente ipsam quasi mollitia
+      amet necessitatibus totam nemo odio, praesentium, cum beatae iure voluptate, provident quaerat consequatur. Cum
+      ipsam adipisci at, tempore ea, pariatur exercitationem molestias quasi voluptates sed quisquam minus recusandae
+      debitis quidem asperiores dignissimos reiciendis ducimus eos doloremque explicabo fugiat voluptatem. Dicta sunt
+      sint perferendis esse id facere asperiores voluptatibus odio, earum culpa amet nesciunt debitis repudiandae?</p>
+  </div>
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i>
+      </button>
+      <div class="modal-header">
+        <h3>sign up</h3>
+      </div>
+      <div class="modal-content">
+        <p>register with us!</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">name</label>
+            <input type="text" id="name" class="form-input" placeholder="enter name">
+          </div>
+          <div>
+            <label for="email">e-mail</label>
+            <input type="email" id="email" class="form-input" placeholder="enter e-mail">
+          </div>
+          <div>
+            <label for="password">password</label>
+            <input type="password" id="password" class="form-input" placeholder="enter password">
+          </div>
+          <div>
+            <label for="password2">confirm password</label>
+            <input type="password" id="password2" class="form-input" placeholder="enter password again">
+          </div>
+          <input type="submit" value="submit" class="submit-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
